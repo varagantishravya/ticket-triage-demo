@@ -1,0 +1,13 @@
+name: ticket-triage-env
+description: Customer support ticket classification environment
+version: 1.0
+
+actions:
+  - category: string
+  - priority: string
+  - response: string
+
+observations:
+  - ticket_id: int
+  - message: string
+  - customer_type: string
